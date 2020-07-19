@@ -1,0 +1,54 @@
+h1{
+    width: 500px;
+    margin: auto; 
+    text-align: center;
+}
+#topbar{
+    border: 1px solid black;
+    margin: auto;
+    height: 100px;
+    width: 500px;
+    border: 20px solid red;
+    background-color: red;
+}
+
+ #container{
+     margin: auto;
+    display: grid;
+    border: 20px solid red;
+    width: 500px;
+    height: 500px;
+}
+.box{
+    text-align: center;
+    border: 1px solid blue;
+    background-color: white;
+}
+
+.box:hover{
+    background-color: red;
+}
+
+#reset{
+    width: 100px;
+    margin-left: 30%;
+}
+
+
+#leftwheel{
+    display: inline-grid;
+    float: left;
+    width: 75px;
+    height: 75px;
+    background-color: burlywood;
+    border-radius: 50%;
+}
+
+#rightwheel{
+    display: inline-grid;
+    float: right;
+    width: 75px;
+    height: 75px;
+    background-color: burlywood;
+    border-radius: 50%;
+}
